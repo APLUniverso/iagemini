@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: 'Evaluación de 40 prompts del proyecto Dashboard'
+
+env:
+  GEMINI_API_KEY: AIzaSyDaIO3IK6wQsHv7nh1kKiBDN1EslFgjHDs
+
+# Leer prompts directamente desde archivo de texto
+prompts: file://prompts.txt
+
+providers:
+  - google:gemini-2.5-flash
+
+# Validaciones genéricas aplicadas a todos los prompts
+defaultTest:
+  assert:
+    - type: javascript
+      value: output.length > 20
+    - type: javascript
+      value: output.length < 5000
+    - type: not-contains
+      value: 'error'
+    - type: not-contains
+      value: 'lo siento'

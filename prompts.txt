@@ -1,0 +1,40 @@
+Define los 5 principales KPIs de un dashboard de 'Comercio Electrónico en Vivo'.
+Genera una estructura de 4 pestañas principales para el dashboard.
+Crea una matriz de decisiones para elegir entre Kafka y RabbitMQ para ingesta de datos en tiempo real.
+Estima requisitos de almacenamiento para un sistema de métricas que recibe 1000 eventos/seg durante 30 días.
+Redacta un User Story para un analista de operaciones que necesita detectar anomalías en tiempo real.
+Sugiere una paleta de colores accesible (5 colores en hexadecimal) para un dashboard de monitoreo.
+Define un modelo de datos básico (3 entidades) para almacenar métricas de tiempo real.
+Identifica 3 riesgos técnicos principales al desarrollar un dashboard en vivo.
+Diseña una visualización para mostrar latencia p99 de un servicio en tiempo real.
+Lista 4 acciones interactivas que un usuario debe poder hacer en el dashboard.
+Escribe CSS básico para una tarjeta KPI con fondo azul, texto blanco, padding 16px y bordes redondeados.
+Sugiere un patrón de diseño para gestionar una única conexión WebSocket compartida en toda la aplicación.
+Diseña una leyenda para un gráfico con 5 componentes del sistema (asigna un color a cada uno).
+Describe la estructura de un wireframe para el header del dashboard (4 elementos).
+Diseña una microinteracción visual para indicar que los datos están cargando.
+Escribe el texto de un tooltip que explique qué significa 'p99' a un usuario no técnico.
+Escribe código Python para conectarse a PostgreSQL usando psycopg2.
+Escribe una consulta SQL que calcule el promedio de cpu_usage en los últimos 5 minutos.
+Escribe código JavaScript/Node.js para inicializar un servidor WebSocket en el puerto 8080.
+Define la estructura JSON para un mensaje que envía un KPI (incluye: id, valor, timestamp, unidad, tendencia).
+Lista los 4 pasos principales para crear un endpoint REST que devuelva métricas desde PostgreSQL.
+Escribe una función Lambda en Python que simule la generación de una métrica aleatoria.
+Escribe un Dockerfile básico para una aplicación Java que expone el puerto 8080.
+Describe 3 medidas de seguridad para un WebSocket que transmite datos sensibles.
+Escribe un componente React (hooks) que se conecte a un WebSocket y actualice un KPI cuando reciba datos.
+Escribe el código HTML y JavaScript para inicializar un gráfico de líneas con Chart.js.
+Escribe una función JavaScript que parsee un mensaje WebSocket JSON y extraiga 3 campos (metric, value, timestamp).
+Explica cómo hacer que un dashboard sea responsive usando CSS Grid (menciona 3 propiedades clave).
+Escribe JSX de React para un componente que muestre un KPI y parpadee en rojo si el valor supera 90.
+Explica cómo implementar throttling para procesar solo 1 actualización de métrica por segundo en el frontend.
+Escribe el mensaje de error que debe mostrarse al usuario cuando se pierde la conexión WebSocket.
+Lista las últimas 5 alertas del sistema con formato timestamp + descripción (inventa datos realistas).
+Define 5 casos de prueba para una función que calcula tendencia (UP/DOWN/NO_CHANGE) comparando dos valores.
+Escribe un test E2E con Cypress que inyecte datos de métrica y verifique que aparecen en un gráfico.
+Describe cómo implementar un test A/B en Kubernetes para comparar dos versiones del dashboard (menciona Deployment e Ingress).
+Lista 4 métricas clave de rendimiento frontend (Web Vitals) que debes monitorear en el dashboard.
+Escribe un comando bash con curl para consultar un endpoint GET que devuelve métricas en JSON.
+Describe el procedimiento de rollback si una nueva versión del dashboard falla en producción (3 pasos).
+Escribe un mensaje de commit siguiendo Conventional Commits para un fix que corrige un error de actualización en el gráfico.
+Escribe un checklist de 5 ítems de QA antes de liberar el dashboard a producción.
